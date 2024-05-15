@@ -1,5 +1,5 @@
 <?php
-function obtenerSaludo($paremetro) {
+function obtenerSaludo($parametro) {
     return "hola como estas ".$parametro;
 }
 
