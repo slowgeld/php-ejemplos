@@ -22,4 +22,15 @@ for( $i= 1; $i< 5; $i++ ) {
 }
 echo "El numero menor es :".$mayor;
 
+// Lógica que permite encontrar el número menor de 5 números
+$menor = PHP_INT_MAX;
+for( $i=1; $i<=5; $i++ ) {
+    $numero = fgets(STDIN);
+    if($menor > $numero) {
+        $menor = $numero;
+    }
+}
+echo "El número menor es ".$menor;
+
+
 ?>
