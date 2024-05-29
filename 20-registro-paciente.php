@@ -13,9 +13,9 @@
         <label for="apellido">Apellido:</label>
         <input type="text" id="apellido" name="apellido"><br>
         <label for="edad">Edad :</label>
-        <input type="number" id="edad" name="edad" required><br>
+        <input type="text" id="edad" name="edad" required><br>
         <label for="talla">Talla(cm):</label>
-        <input type="number" id="talla" name="talla" required><br
+        <input type="text" id="talla" name="talla" required><br
         <label for="peso">Peso (kg):</label>
         <input type="text" id="peso" name="peso"><br>
         <h2><u>Sintomas</u></h2>

@@ -80,19 +80,6 @@ switch ($opcion) {
         default;
         #code...
         break;
-
-   do{
-    echo "¿INGRESE LA OPCION";
-    $opcion = fgetS(STDIN);
-    switch ($opcion){
     }
-    if($opcion == 0) break;
-    echo "\n DESEA CONTINUAR ? (1=SI/0=NO)";
-    $rpta = fgets(STDIN);
-
-   }
-   while($rpta==1)     
-}
-
 
 ?>
